@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+header h1 {
+	font-size: 5rem;
+	margin-top: 2%;
+}
+
+.container {
+	margin: 2% auto;
+	max-width: 500px;
+}
+
+.grid {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin: auto;
+	width: 400px;
+	background-color: lightgray;
+	padding: 5%;
+	border-radius: 20px;
+	box-shadow: 8px 10px 12px 0px #0000003b;
+}
+
+.block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid lightgray;
+	width: 130px;
+	height: 130px;
+	background-color: white;
+	cursor: pointer;
+	font-size: 3.8rem;
+}
+
+.block:hover {
+	background-color: #f7f7f7;
+}
+
+.controllers {
+	margin-top: 40px;
+}
+
+button {
+	background-color: black;
+	padding: 15px 35px;
+	border: none;
+	border-radius: 8px;
+	font-size: 1.3rem;
+	font-weight: 200;
+	text-transform: capitalize;
+	color: white;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+button:hover {
+	background-color: #000000bf;
+}
+
+button:disabled {
+	background-color: gray;
+}
+
+.scoreboard {
+	margin-bottom: 20px;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+}
+
+.scoreboard .box {
+	font-size: 1.4rem;
+	border-bottom: 4px solid lightskyblue;
+}
+
+.feedback {
+	margin-top: 20px;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+/* utils */
+.uppercase {
+	text-transform: uppercase;
+}
+
+.text--green {
+	color: limegreen;
+}
+
+.text--red {
+	color: tomato;
+}

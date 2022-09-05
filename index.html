@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+    <main class="container">
+        <div class="scoreboard">
+            <div class="box">Player A: <span>0</span></div>
+            <div class="box">Player B: <span>0</span></div>
+        </div>
+
+        <div class="grid">
+            <div class="row">
+                <div class="block">😍</div>
+                <div class="block">😍</div>
+                <div class="block">😎</div>
+            </div>
+            <div class="row">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block">😍</div>
+            </div>
+            <div class="row">
+                <div class="block">😍</div>
+                <div class="block">😍</div>
+                <div class="block">😎</div>
+            </div>
+        </div>
+        <div class="feedback">
+            <h2 class="uppercase">[Game Status]</h2>
+            <p class="content text--green">Click "START GAME" below 👇</p>
+        </div>
+        <div class="controllers">
+            <button id="startGame" class="uppercase" onclick="startGame()">Start Game</button>
+        </div>
+    </main>
+    <footer>Made with ❤️ by LacheRo`</footer>
+
+</body>
+</html>
